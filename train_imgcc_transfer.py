@@ -38,12 +38,12 @@ def parse_args():
     parser.add_argument('--data_name', type=str, default='CWRU', help='the name of the data')
 
     # parser.add_argument('--data_dir', type=str, default="E:\PycharmProjects\data\CWRU",
-    #                     help='the directory of the data')
+    #                     help='the directory of the data') # 在笔记本中
 
     # parser.add_argument('--data_dir', type=str, default="/Users/liufei/PycharmProjects/CWRU",
     #                     help='the directory of the data') # macos下
     parser.add_argument('--data_dir', type=str, default="F:\liufeidata\datasets\CWRU",
-                        help='the directory of the data')
+                        help='the directory of the data') # 在工作站下
 
     # parser.add_argument('--data_dir', type=str, default="/content/CWRU",
     #                     help='the directory of the data')   # 在google的colab平台上，将默认数据集路径改掉就好了
