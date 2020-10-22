@@ -40,7 +40,9 @@ def parse_args():
     # parser.add_argument('--data_dir', type=str, default="E:\PycharmProjects\data\CWRU",
     #                     help='the directory of the data')
 
-    parser.add_argument('--data_dir', type=str, default="/Users/liufei/PycharmProjects/CWRU",
+    # parser.add_argument('--data_dir', type=str, default="/Users/liufei/PycharmProjects/CWRU",
+    #                     help='the directory of the data') # macos下
+    parser.add_argument('--data_dir', type=str, default="F:\liufeidata\datasets\CWRU",
                         help='the directory of the data')
 
     # parser.add_argument('--data_dir', type=str, default="/content/CWRU",
@@ -79,9 +81,9 @@ def parse_args():
 
 
 
-    # parser.add_argument('--batch_size', type=int, default=64, help='batchsize of the training process')
+    parser.add_argument('--batch_size', type=int, default=128, help='batchsize of the training process')
     # parser.add_argument('--batch_size', type=int, default=32, help='batchsize of the training process')
-    parser.add_argument('--batch_size', type=int, default=10, help='batchsize of the training process')
+    # parser.add_argument('--batch_size', type=int, default=10, help='batchsize of the training process')
     parser.add_argument('--num_workers', type=int, default=0, help='the number of training process')
 
 
